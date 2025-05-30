@@ -56,13 +56,3 @@ basic.forever(() => {
 
     basic.pause(100);
 })
-
-// if (xTilt < -10) {
-// //do leva
-// PCAmotor.MotorRun(PCAmotor.Motors.M1, (xTilt - 50))
-// PCAmotor.MotorRun(PCAmotor.Motors.M4, xTilt)
-// } else if (xTilt > 10) {
-// //do prava
-// PCAmotor.MotorRun(PCAmotor.Motors.M1, xTilt)
-// PCAmotor.MotorRun(PCAmotor.Motors.M4, (xTilt - 50))
-// }
